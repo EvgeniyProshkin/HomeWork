@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shopping Card</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="styles/StyleShopping_card.css">
+    <link rel="stylesheet" href="styles/checkout.css">
     <link rel="stylesheet" href="styles/style.css">
-    <script src="https://kit.fontawesome.com/861689887d.js"></script>
     <link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/861689887d.js"></script>
 </head>
 <body>
     <div class="header container">
@@ -47,133 +48,85 @@
             </div>
         </div>
     </div>
-    <div class="products">
-        <div class="products__1140px">
-            <h2 id="another_width">product detals</h2>
-            <div class="products__another">
-                <h2>unite price</h2>
-                <h2>Quantity</h2>
-                <h2>shipping</h2>
-                <h2>Subtotal</h2>
-                <h2>ACTION</h2>
-            </div>
-        </div>
-    </div>
-    <div class="products__line">
-        <div class="products__line--1140px">
-        </div>
-    </div>
-    <section>
-        <div class="card">
-            <div class="card__descriptoin">
-                <img src="img/Layer_43.png" alt="T-Shirt">
-                <div class="card__description--h">
-                    <h5>Mango  People  T-shirt</h5>
-                    <p>Color: <span>Red</span><br>
-                        Size: <span>XII</span></p>
+    <div class="shoppingAdress">
+        <div class="shoppingAdress__1140px">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox"> 01. shopping adress</label>
+            <div class="shoppingAdress__none">
+                <div class="shoppingAdress__bye">
+                    <div class="shoppingAdress__bye--guest">
+                        <div class="shoppingAdress__bye--guestCheck">
+                            <p>Check as a guest or register<br><span>Register with us for future convenience</span></p>
+                        </div>
+                        <form class="checkbox" method="get">
+                            <p><input class="checkbox__1" name="regist" id="chk" type="radio" value="guest">
+                                <label for="chk">checkout as guest</label></p>
+                            <p><input name="regist" type="radio" value="register" id="chk2">
+                                <label for="chk2">register</label></p>
+                            <div class="checkbox__text">
+                                <p>register and save time!<br><span>Register with us for future convenience<br><br><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+    Fast and easy checkout<br><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+    Easy access to your order history and status</span></p>
+                                <p><button class="checkbox__button"><div class="checkbox__button--p">Continue</div></button></p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="shoppingAdress__bye--registed">
+                        <div class="shoppingAdress__bye--header">
+                            <p>Already registed?<br><span>Please log in below</span></p>
+                        </div>
+                        <form class="registed">
+                            <p>Email adress <span>*</span></p>
+                            <input class="registed__email" type="email" name="login">
+                            <p>PASSWORD <span>*</span></p>
+                            <input class="registed__email" type="password" name="pass">
+                            <p><span>* Required Fileds</span></p>
+                            <div class="registed__button">
+                                <button class="form__button" type="submit"><div class="form__button--p">Log in</div></button>
+                                <a href="#">Forgot Password ?</a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="card__counter">
-                <div class="card__cost"><a href="#">$150</a></div>
-                <div class="card__quantity">
-                    <div class="card__quantity--block">2</div>
-                </div>
-                <div class="card__shipping">free</div>
-                <div class="card__subtotal">$300</div>
-                <div class="card__action"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
-            </div>
-        </div>
-    </section>
-    <div class="products__line">
-        <div class="products__line--1140px">
-        </div>
-    </div>
-    <section>
-        <div class="card">
-            <div class="card__descriptoin">
-                <img src="img/Layer_44.png" alt="T-Shirt">
-                <div class="card__description--h">
-                    <h5>Mango  People  T-shirt</h5>
-                    <p>Color: <span>Red</span><br>
-                        Size: <span>XII</span></p>
+            <div class="falseLine"></div>
+            <div>
+                <input type="checkbox" id="checkbox2">
+                <label for="checkbox2"> 02. Billing information</label>
+                <div class="billingInfo__none">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, nobis.
                 </div>
             </div>
-            <div class="card__counter">
-                <div class="card__cost"><a href="#">$150</a></div>
-                <div class="card__quantity">
-                    <div class="card__quantity--block">2</div>
-                </div>
-                <div class="card__shipping">free</div>
-                <div class="card__subtotal">$300</div>
-                <div class="card__action"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
-            </div>
-        </div>
-    </section>
-    <div class="products__line">
-        <div class="products__line--1140px">
-        </div>
-    </div>
-    <section>
-        <div class="card">
-            <div class="card__descriptoin">
-                <img src="img/Layer_45.png" alt="T-Shirt">
-                <div class="card__description--h">
-                    <h5>Mango  People  T-shirt</h5>
-                    <p>Color: <span>Red</span><br>
-                        Size: <span>XII</span></p>
+            <div class="falseLine"></div>
+            <div>
+                <input type="checkbox" id="checkbox3">
+                <label for="checkbox3"> 03. Shopping information</label>
+                <div class="shoppingInfo__none">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum cumque dolorem iure molestias nostrum quas repudiandae sint suscipit vero!
                 </div>
             </div>
-            <div class="card__counter">
-                <div class="card__cost"><a href="#">$150</a></div>
-                <div class="card__quantity">
-                    <div class="card__quantity--block">2</div>
+            <div class="falseLine"></div>
+            <div>
+                <input type="checkbox" id="checkbox4">
+                <label for="checkbox4"> 04. Shopping Method</label>
+                <div class="shoppingMethod__none">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing.
                 </div>
-                <div class="card__shipping">free</div>
-                <div class="card__subtotal">$300</div>
-                <div class="card__action"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
             </div>
-        </div>
-    </section>
-    <div class="products__line">
-        <div class="products__line--1140px">
-        </div>
-    </div>
-    <div class="buttons">
-        <div class="buttons__1140px">
-            <a href="#"><div class="button__clear">cLEAR SHOPPING CART</div></a>
-            <a href="#"><div class="button__continue">cONTINUE sHOPPING</div></a>
-        </div>
-    </div>
-    <div class="form">
-        <div class="form__1140px">
-            <div class="form__adress">
-                <h4>Shipping Adress</h4>
-                <form class="form__adress" method="get">
-                    <select id="select">
-                        <option value=”bangladesh”>Bangladesh</option>
-                        <option value=”moscow”>Moscow</option>
-                        <option value=”london”>London</option>
-                    </select>
-                    <input type="text" class="form__state" name="State" placeholder="State">
-                    <input type="text" class="form__postcode" name="Postcode" placeholder="Postcode / Zip">
-                    <button class="form__button">get a quote</button>
-                </form>
-            </div>
-            <div class="coupon">
-                <div class="coupon__h4"><h4>coupon  discount</h4>
-                <p>Enter your coupon code if you have one</p>
+            <div class="falseLine"></div>
+            <div>
+                <input type="checkbox" id="checkbox5">
+                <label for="checkbox5"> 05. payment Method</label>
+                <div class="paymentMethod__none">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deleniti, ea.
                 </div>
-                <form class="form__coupon" method="get">
-                    <input type="text" class="form__state" name="State" placeholder="State">
-                    <button class="form__button">Apply coupon</button>
-                </form>
             </div>
-            <div class="total">
-                <div class="total__score">
-                    <div class="total__score--sub">Sub total         $900</div>
-                    <div class="total__score--grand">GRAND TOTAL      <span>$900</span></div>
-                    <div class="total__score--line"></div>
-                    <button class="total__score--button">proceed to checkout</button>
+            <div class="falseLine"></div>
+            <div>
+                <input type="checkbox" id="checkbox6">
+                <label for="checkbox6"> 06. order review</label>
+                <div class="order__none">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deleniti, ea.
                 </div>
             </div>
         </div>
@@ -270,6 +223,6 @@
             </div>
         </div>
     </div>
-<div class="wwwwwwwww"></div>
+
 </body>
 </html>

@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shopping Card</title>
-    <link rel="stylesheet" href="styles/StyleShopping_card.css">
+    <title>Single page</title>
+    <link rel="stylesheet" href="styles/single_page.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/861689887d.js"></script>
     <link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
@@ -47,134 +47,135 @@
             </div>
         </div>
     </div>
-    <div class="products">
-        <div class="products__1140px">
-            <h2 id="another_width">product detals</h2>
-            <div class="products__another">
-                <h2>unite price</h2>
-                <h2>Quantity</h2>
-                <h2>shipping</h2>
-                <h2>Subtotal</h2>
-                <h2>ACTION</h2>
+    <div class='banner'>
+        <button class="banner__button">
+            <div class="banner__stepBack">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </div>
+        </button>
+            <img src="img/Layer_42.png" alt="Banner">
+        <button class="banner__button">
+            <div class="banner__stepForvard">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </div>
+        </button>
+    </div>
+    <div class="collection">
+        <div class="collection__1140px">
+            <div class="collection__nameHeader">
+                Women collection
+                <div class="collection__line">
+                    <div class="collection__line--1px"></div>
+                    <div class="collection__line--3px"></div>
+                    <div class="collection__line--1px"></div>
+                </div>
+                <h2>Moschino Cheap And Chic</h2>
+            </div>
+            <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
+            <div class="collection__description">
+                <div class="collection__description--material"> MATERIAL:<span> COTTON</span></div>
+                <div class="collection__description--designer">DESIGNER: <span>BINBURHAN</span></div>
+            </div>
+            <div class="collection__cost">$561</div>
+            <div class="collection__falseLine"></div>
+            <div class="collection__couner">
+                <div class="collection__couner--color">
+                    Choose color
+                    <form class="form__select" method="get">
+                        <select>
+                            <option value=”red”><div class="collection__select--red"></div>Red</option>
+                            <option value=”blue”>Blue</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="collection__couner--size">
+                    CHOOSE SIZE
+                    <form class="form__select" method="get">
+                        <select>
+                            <option value=”xxl”>XXL</option>
+                            <option value=”xl”>XL</option>
+                            <option value=”l”>L</option>
+                            <option value=”s”>S</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="collection__couner--quantity">
+                    QUANTITY
+                    <input type="text" class="collection__couner--input" name="quantity" placeholder="2">
+                </div>
+            </div>
+            <div class="collection__button">
+                <a href="#">
+                    <div class="collection__button--center">
+                        <img src="img/basket_pink.png" alt="cart">
+                        Add to Cart
+                    </div>
+                </a>
             </div>
         </div>
     </div>
-    <div class="products__line">
-        <div class="products__line--1140px">
-        </div>
-    </div>
-    <section>
-        <div class="card">
-            <div class="card__descriptoin">
-                <img src="img/Layer_43.png" alt="T-Shirt">
-                <div class="card__description--h">
-                    <h5>Mango  People  T-shirt</h5>
-                    <p>Color: <span>Red</span><br>
-                        Size: <span>XII</span></p>
+    <h4>you may like also</h4>
+    <div class="itemAlso">
+        <div class="itemAlso__1140px">
+            <div class="itemAlso__product">
+                <div class="itemAlso__hover">
+                    <div class="itemAlso__hover--iner">
+                        <a href="#">
+                            <div class="itemAlso--iner">
+                                <img src="img/basket.png" alt="basket">
+                                <p>Add to Cart</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
+                <div class="itemAlso__img"> <img src="img/Layer_0344.png" alt="ALSO"></div>
+                <div class="itemAlso__content">BLAZE LEGGINGS</div>
+                <div class="itemAlso__price">$52.00</div>
             </div>
-            <div class="card__counter">
-                <div class="card__cost"><a href="#">$150</a></div>
-                <div class="card__quantity">
-                    <div class="card__quantity--block">2</div>
+            <div class="itemAlso__product">
+                <div class="itemAlso__hover">
+                    <div class="itemAlso__hover--iner">
+                        <a href="#">
+                            <div class="itemAlso--iner">
+                                <img src="img/basket.png" alt="basket">
+                                <p>Add to Cart</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="card__shipping">free</div>
-                <div class="card__subtotal">$300</div>
-                <div class="card__action"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                <div class="itemAlso__img"> <img src="img/Layer_0345.png" alt="ALSO" height="270px"></div>
+                <div class="itemAlso__content">ALEXA SWEATER</div>
+                <div class="itemAlso__price">$52.00</div>
             </div>
-        </div>
-    </section>
-    <div class="products__line">
-        <div class="products__line--1140px">
-        </div>
-    </div>
-    <section>
-        <div class="card">
-            <div class="card__descriptoin">
-                <img src="img/Layer_44.png" alt="T-Shirt">
-                <div class="card__description--h">
-                    <h5>Mango  People  T-shirt</h5>
-                    <p>Color: <span>Red</span><br>
-                        Size: <span>XII</span></p>
+            <div class="itemAlso__product">
+                <div class="itemAlso__hover">
+                    <div class="itemAlso__hover--iner">
+                        <a href="#">
+                            <div class="itemAlso--iner">
+                                <img src="img/basket.png" alt="basket">
+                                <p>Add to Cart</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
+                <div class="itemAlso__img"> <img src="img/Layer_0346.png" alt="ALSO"></div>
+                <div class="itemAlso__content">AGNES TOP</div>
+                <div class="itemAlso__price">$52.00</div>
             </div>
-            <div class="card__counter">
-                <div class="card__cost"><a href="#">$150</a></div>
-                <div class="card__quantity">
-                    <div class="card__quantity--block">2</div>
+            <div class="itemAlso__product">
+                <div class="itemAlso__hover">
+                    <div class="itemAlso__hover--iner">
+                        <a href="#">
+                            <div class="itemAlso--iner">
+                                <img src="img/basket.png" alt="basket">
+                                <p>Add to Cart</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="card__shipping">free</div>
-                <div class="card__subtotal">$300</div>
-                <div class="card__action"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
-            </div>
-        </div>
-    </section>
-    <div class="products__line">
-        <div class="products__line--1140px">
-        </div>
-    </div>
-    <section>
-        <div class="card">
-            <div class="card__descriptoin">
-                <img src="img/Layer_45.png" alt="T-Shirt">
-                <div class="card__description--h">
-                    <h5>Mango  People  T-shirt</h5>
-                    <p>Color: <span>Red</span><br>
-                        Size: <span>XII</span></p>
-                </div>
-            </div>
-            <div class="card__counter">
-                <div class="card__cost"><a href="#">$150</a></div>
-                <div class="card__quantity">
-                    <div class="card__quantity--block">2</div>
-                </div>
-                <div class="card__shipping">free</div>
-                <div class="card__subtotal">$300</div>
-                <div class="card__action"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
-            </div>
-        </div>
-    </section>
-    <div class="products__line">
-        <div class="products__line--1140px">
-        </div>
-    </div>
-    <div class="buttons">
-        <div class="buttons__1140px">
-            <a href="#"><div class="button__clear">cLEAR SHOPPING CART</div></a>
-            <a href="#"><div class="button__continue">cONTINUE sHOPPING</div></a>
-        </div>
-    </div>
-    <div class="form">
-        <div class="form__1140px">
-            <div class="form__adress">
-                <h4>Shipping Adress</h4>
-                <form class="form__adress" method="get">
-                    <select id="select">
-                        <option value=”bangladesh”>Bangladesh</option>
-                        <option value=”moscow”>Moscow</option>
-                        <option value=”london”>London</option>
-                    </select>
-                    <input type="text" class="form__state" name="State" placeholder="State">
-                    <input type="text" class="form__postcode" name="Postcode" placeholder="Postcode / Zip">
-                    <button class="form__button">get a quote</button>
-                </form>
-            </div>
-            <div class="coupon">
-                <div class="coupon__h4"><h4>coupon  discount</h4>
-                <p>Enter your coupon code if you have one</p>
-                </div>
-                <form class="form__coupon" method="get">
-                    <input type="text" class="form__state" name="State" placeholder="State">
-                    <button class="form__button">Apply coupon</button>
-                </form>
-            </div>
-            <div class="total">
-                <div class="total__score">
-                    <div class="total__score--sub">Sub total         $900</div>
-                    <div class="total__score--grand">GRAND TOTAL      <span>$900</span></div>
-                    <div class="total__score--line"></div>
-                    <button class="total__score--button">proceed to checkout</button>
-                </div>
+                <div class="itemAlso__img"> <img src="img/Layer_47.png" alt="ALSO"></div>
+                <div class="itemAlso__content">SYLVA SWEATER</div>
+                <div class="itemAlso__price">$52.00</div>
             </div>
         </div>
     </div>
@@ -270,6 +271,6 @@
             </div>
         </div>
     </div>
-<div class="wwwwwwwww"></div>
+
 </body>
 </html>
